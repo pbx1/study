@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- name可以自取 -->
+	<named-config name="pbx">
+	<!-- 驱动 -->
+	<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+	<property name="jdbcUrl">jdbc:oracle:thin:@localhost:1521:XE</property>
+	<property name="user">ts1</property>
+	<property name="password">082349</property>
+	<!--初始连接数 -->
+	<property name="initialPoolSize">5</property>
+	<!-- 最大空闲时间 -->
+	<property name="maxIdleTime">60</property>
+	<!-- 最小连接数 -->
+	<property name="minPoolSize">3</property>
+	<!-- 最大连接数 -->
+	<property name="maxPoolSize">10</property>
+	</named-config>
+</c3p0-config>

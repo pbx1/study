@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+		<param-name>encoding</param-name>
+		<param-value>utf-8</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>ServletTest</servlet-name>
+		<servlet-class>com.oracle.ServletTest</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>ServletTest</servlet-name>
+		<url-pattern>/ServletTest</url-pattern>
+	</servlet-mapping>
+</web-app>
